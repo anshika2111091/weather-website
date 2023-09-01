@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getdata()">
+    <div class="box">
+        <input type="text" onchange="getdata()" id="search" value="Lakhimpur">
+        <div>
+            <h1 id="temp">30<sup>o</sup></h1>
+            <p class="data">Celcius</p>
+            <p class="data">Wind Speed <span id="ws">999</span></p>
+   
+            <p class="data">Humidity <span id="humidity">67</span></p>
+        </div>
+        <div class="img">
+           <img src="icon.png" width="200px" alt="no image">
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
